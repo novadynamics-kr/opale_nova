@@ -2,7 +2,7 @@
 @use "sass:map";
 @use "sass:math";
 @use "vendor/tabler-icons";
-
+@use "Escoredream_local";
 
 // Variables
 
@@ -109,7 +109,7 @@ $link-color-user-locked:        $gray-700 !default;
 
 // Typography
 
-$font-family-sans-serif:        system-ui,
+$font-family-sans-serif:        "Escoredream", system-ui,
                                 /* macOS 10.11-10.12 */ -apple-system,
                                 /* Windows 6+ */ Segoe UI,
                                 /* Android 4+ */ Roboto,
